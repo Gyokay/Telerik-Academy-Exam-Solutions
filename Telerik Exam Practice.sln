@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik Academy Exam 1 @ 5 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik Academy Exam 1 @ 23 June 2013 Problem 3", "Telerik Academy Exam 1 @ 23 June 2013 Problem 3\Telerik Academy Exam 1 @ 23 June 2013 Problem 3.csproj", "{1EB4133D-C6AC-43E7-8D61-249A01C32A44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7F9190A4-9486-4D2B-9C2C-F0D720DB4E08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{1EB4133D-C6AC-43E7-8D61-249A01C32A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB4133D-C6AC-43E7-8D61-249A01C32A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB4133D-C6AC-43E7-8D61-249A01C32A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9190A4-9486-4D2B-9C2C-F0D720DB4E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9190A4-9486-4D2B-9C2C-F0D720DB4E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9190A4-9486-4D2B-9C2C-F0D720DB4E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9190A4-9486-4D2B-9C2C-F0D720DB4E08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
