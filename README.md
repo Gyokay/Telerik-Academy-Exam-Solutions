@@ -1,1 +1,1 @@
-# Telerik-Exam-Practice
+# Telerik-Academy-Exam-Solutions
