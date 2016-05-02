@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy_Dwarf", "Greedy_Dwar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits", "Digits\Digits.csproj", "{53FDAB28-72B0-4F55-A615-6BA84EC54A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relevance_Index", "Relevance_Index\Relevance_Index.csproj", "{B7CB0022-7D9E-424C-9CC5-543C50443196}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{53FDAB28-72B0-4F55-A615-6BA84EC54A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53FDAB28-72B0-4F55-A615-6BA84EC54A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53FDAB28-72B0-4F55-A615-6BA84EC54A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CB0022-7D9E-424C-9CC5-543C50443196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CB0022-7D9E-424C-9CC5-543C50443196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CB0022-7D9E-424C-9CC5-543C50443196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CB0022-7D9E-424C-9CC5-543C50443196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
