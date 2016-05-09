@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace Strangeland_Numbers
 {
@@ -12,60 +13,46 @@ namespace Strangeland_Numbers
         {
             string input = Console.ReadLine();
 
-            List<long> digits = ConvertToDigit(input);
+            BigInteger resultDecimal = 0;
 
-            Console.WriteLine(ConvertToDecimal(digits, 7));
-        }
+            int pow = FindNumberCount(input);
 
-        static public List<long> ConvertToDigit(string input)
-        {
-            string[] words = new string[] { "f", "bIN", "oBJEC", "mNTRAVL", "lPVKNQ", "pNWE", "hT" };
-
-            List<long> digits = new List<long>();
-
-            int startIndex = 0;
-            int length = 1;
-
-            while (startIndex < input.Length)
+            for (int i = 0; i < input.Length; i++)
             {
-                string stringToCheck = input.Substring(startIndex, length);
+                int digit = 0;
 
-                bool matchFound = false;
-
-                for (int i = 0; i < words.Length; i++)
+                if (char.IsLower(input[i]))
                 {
-                    if (words[i] == stringToCheck)
+                    switch (input[i])
                     {
-                        digits.Add(i);
-                        matchFound = true;
-                        break;
+                        case 'f': digit = 0; break;
+                        case 'b': digit = 1; break;
+                        case 'o': digit = 2; break;
+                        case 'm': digit = 3; break;
+                        case 'l': digit = 4; break;
+                        case 'p': digit = 5; break;
+                        case 'h': digit = 6; break;
                     }
-                }
 
-                if (matchFound)
-                {
-                    startIndex += length;
-                    length = 1;
-                }
-                else
-                {
-                    length++;
+                    resultDecimal += (BigInteger)Math.Pow(7, pow) * digit;
+
+                    pow--;
                 }
             }
 
-            return digits;
+            Console.WriteLine(resultDecimal);
         }
 
-        static public double ConvertToDecimal(List<long> digits, long numeralBase)
+        static int FindNumberCount(string input)
         {
-            double number = 0;
+            int count = 0;
 
-            for (int i = 0; i < digits.Count; i++)
+            for (int i = 0; i < input.Length; i++)
             {
-                number += Math.Pow(numeralBase, (digits.Count - i) - 1) * digits[i];
+                if (char.IsLower(input[i])) count++;
             }
 
-            return number;
+            return --count;
         }
     }
 }
