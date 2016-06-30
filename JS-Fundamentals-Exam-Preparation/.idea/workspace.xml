@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e5c7ac-0a45-4abe-a966-8663f6654dbc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MinMax.js" afterPath="$PROJECT_DIR$/MinMax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Horsy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JS-Fundamentals-Exam-Preparation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,14 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinMax.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MinMax.js">
+      <file leaf-file-name="Horsy.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Horsy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-              <folding>
-                <element signature="n#!!doc;n#solve#0" expanded="false" />
-              </folding>
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +37,7 @@
       <file leaf-file-name="Powers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Powers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="-1505">
               <caret line="2" column="42" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="45" />
               <folding />
             </state>
@@ -68,6 +67,7 @@
         <option value="module.js" />
         <option value="$PROJECT_DIR$/Powers.js" />
         <option value="$PROJECT_DIR$/MinMax.js" />
+        <option value="$PROJECT_DIR$/Horsy.js" />
       </list>
     </option>
   </component>
@@ -136,12 +136,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Telerik-Academy-Homeworks/JS-Fundamentals-Homeworks" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Node.js.MinMax.js">
+  <component name="RunManager" selected="Node.js.Horsy.js">
     <configuration default="false" name="Max-Sum" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Max-Sum.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -149,6 +149,9 @@
       <method />
     </configuration>
     <configuration default="false" name="MinMax.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="MinMax.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="Horsy.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Horsy.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -204,16 +207,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.Max-Sum" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Powers.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.MinMax.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Horsy.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.MinMax.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Powers.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Max-Sum" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Horsy.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.MinMax.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Powers.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Max-Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -241,22 +246,22 @@
       <workItem from="1466500499686" duration="266000" />
       <workItem from="1466620791324" duration="159000" />
       <workItem from="1466941726901" duration="7908000" />
-      <workItem from="1466961845830" duration="18559000" />
+      <workItem from="1466961845830" duration="29754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37568000" />
+    <option name="totallyTimeSpent" value="48763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13127" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.21789473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.21785335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -385,21 +390,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MinMax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc;n#solve#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Powers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="-1505">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinMax.js">
+    <entry file="file://$PROJECT_DIR$/Horsy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-          <folding>
-            <element signature="n#!!doc;n#solve#0" expanded="false" />
-          </folding>
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
