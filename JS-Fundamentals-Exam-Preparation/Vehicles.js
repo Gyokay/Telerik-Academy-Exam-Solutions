@@ -13,5 +13,4 @@ function solve(args) {
     }
 
     console.log(counter);
-
 }
