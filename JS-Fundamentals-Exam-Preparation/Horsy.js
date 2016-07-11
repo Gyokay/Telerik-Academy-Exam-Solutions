@@ -13,11 +13,3 @@ function solve(params) {
     console.log(moves);
 
 }
-
-solve(['3 5', '54561', '43328', '52388']);
-
-// правиш var arr = [];
-// и после arr.push([]);
-// 3:11PM
-//
-// и после arr[0].push(10)
